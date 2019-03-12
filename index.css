@@ -1,6 +1,25 @@
 .matriz{
-    background-color: red;
-    width: 500px;
-    height: 500px;
+    width:  800px;
+    height: 100%;
 
+}
+.column-item{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.father{
+    text-align: center;
+}
+.son{
+    display: inline-block;
+}
+
+.grid-item{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    display: inline-block;
+    margin: 2px;
 }
