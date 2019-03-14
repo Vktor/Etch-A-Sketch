@@ -23,4 +23,12 @@ function createGrid(){
 }
 
 
+function askforGrid(){
+    let grilla = prompt('how many squares per side to make the new grid?')
+    size = grilla;
+    document.getElementById('content').innerHTML= "";
+    createGrid();
+}
+
+
 createGrid();
