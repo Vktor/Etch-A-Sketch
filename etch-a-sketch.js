@@ -1,4 +1,4 @@
-let size = 16;
+let size = 64;
 const container = document.querySelector('.matriz');
 
 
@@ -17,6 +17,9 @@ function createGrid(){
             
             }
         container.appendChild(column).classList.add('column-item');
+        
+        //not sure of this
+        container.appendChild(document.createElement('br'))
     }
 
 

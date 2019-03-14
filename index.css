@@ -1,5 +1,6 @@
 .matriz{
-    width:  960px;
+    margin-top: 10px;
+    /* width:  960px; */
     height: 100%;
 
 }
@@ -7,6 +8,13 @@
     margin: 0;
     padding: 0;
     border: 0;
+    width: 100%;
+}
+
+br{
+  margin: 0;
+  padding: 0;
+  border: 0;  
 }
 
 .father{
@@ -17,10 +25,10 @@
 }
 
 .grid-item{
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     background-color: black;
-    display: inline-block;
-    margin: 2px;
+    float: left;
+    margin: 1px;
 }
 
