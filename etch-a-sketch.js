@@ -10,9 +10,17 @@ function createGrid(){
         for(let i=0; i<size; i++){
             let box = document.createElement("div");
             column.appendChild(box).classList.add('grid-item');
-        }
+            //Colored grid item when mouse is over
+            box.addEventListener('mouseover',function(){
+                this.style.backgroundColor = 'green';
+                });
+            
+            }
         container.appendChild(column).classList.add('column-item');
     }
+
+
 }
+
 
 createGrid();
